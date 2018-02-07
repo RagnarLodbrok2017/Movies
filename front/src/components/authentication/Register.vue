@@ -53,7 +53,9 @@
       </div>
 
     </div>
-    <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 899px; width: 1349px; z-index: -999998; position: absolute;"><img src="../../assets/images/backgrounds/1.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1349px; height: 899.333px; max-height: none; max-width: none; z-index: -999999; left: 0px; top: -0.166667px;"></div></div>
+    <div class="backstretch">
+      <div class="image"></div>
+    </div></div>
 </template>
 
 <script>
