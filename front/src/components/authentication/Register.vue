@@ -7,7 +7,7 @@
           <h1 class="wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;">Register Page</h1>
           <div class="description wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;">
             <p>
-              We have been working very hard to create the new version of our app. It comes with a lot of new features. Check it out now!
+              Hello u can register to watch paid movies and series in the site.
             </p>
           </div>
         </div>
@@ -27,20 +27,20 @@
           <div class="r-form-1-bottom">
             <form role="form" action="" method="post">
               <div class="form-group">
-                <label class="sr-only" for="r-form-1-first-name">name</label>
-                <input type="text" name="r-form-1-name" placeholder="name..." class="r-form-1-first-name form-control" id="r-form-1-first-name">
+                <label class="sr-only" for="r-form-1-name">name</label>
+                <input type="text" name="r-form-1-name" placeholder="name..." class="r-form-1-name form-control" id="r-form-1-name">
               </div>
               <div class="form-group">
                 <label class="sr-only" for="r-form-1-email">Email</label>
                 <input type="email" name="r-form-1-email" placeholder="Email..." class="r-form-1-email form-control" id="r-form-1-email">
               </div>
               <div class="form-group">
-                <label class="sr-only" for="r-form-1-last-name">Username</label>
-                <input type="text" name="r-form-1-username" placeholder="Username..." class="r-form-1-last-name form-control" id="r-form-1-last-name">
+                <label class="sr-only" for="r-form-1-username">Username</label>
+                <input type="text" name="r-form-1-username" placeholder="Username..." class="r-form-1-username form-control" id="r-form-1-username">
               </div>
               <div class="form-group">
-                <label class="sr-only" for="r-form-1-last-name">Password</label>
-                <input type="password" name="r-form-1-password" placeholder="Password..." class="r-form-1-last-name form-control" id="r-form-1-last-name">
+                <label class="sr-only" for="r-form-1-password">Password</label>
+                <input type="password" name="r-form-1-password" placeholder="Password..." class="r-form-1-password form-control" id="r-form-1-password">
               </div>
               <div class="form-group">
                 <label class="sr-only" for="r-form-1-about-yourself">About yourself</label>

@@ -1,27 +1,60 @@
 <template>
-  <form class="form-signin">
-    <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-    <label for="inputEmail" class="sr-only">Email address</label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-    <label for="inputPassword" class="sr-only">Password</label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
-    <div class="checkbox mb-3">
-      <label>
-        <input type="checkbox" value="remember-me"> Remember me
-      </label>
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="head col-xs-12 wow fadeInLeftBig animated">
+        Galaxy Movies
+      </div>
+      <div class="wrap-login100 p-t-190 p-b-30 wow fadeInUp animated">
+        <form class="login100-form validate-form">
+          <div class="login100-form-avatar">
+          </div>
+
+          <div class="wrap-input100 validate-input m-b-10" data-validate = "Username is required">
+            <input class="input100" type="text" name="username" placeholder="Username" v-model="username">
+            <span class="focus-input100"></span>
+            <span class="symbol-input100">
+              <i class="fa fa-user"></i>
+            </span>
+          </div>
+
+          <div class="wrap-input100 validate-input m-b-10" data-validate = "Password is required">
+            <input class="input100" type="password" name="pass" placeholder="Password">
+            <span class="focus-input100"></span>
+            <span class="symbol-input100">
+              <i class="fa fa-lock"></i>
+            </span>
+          </div>
+
+          <div class="container-login100-form-btn p-t-10">
+            <button class="login100-form-btn">
+              Login
+            </button>
+          </div>
+
+          <div class="text-center w-full p-t-25 p-b-230">
+            <a href="#" class="txt1">
+              Forgot Username / Password?
+            </a>
+          </div>
+
+          <div class="text-center w-full">
+            <a class="txt1" href="#">
+              Create new account
+              <i class="fa fa-long-arrow-right"></i>            
+            </a>
+          </div>
+        </form>
+      </div>
     </div>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
-  </form>
+  </div>
 </template>
 
 <script>
     export default {
-
+      data(){
+        return{
+          username:"",
+        }
+      },
     }
 </script>
-
-<style scoped>
-
-</style>
