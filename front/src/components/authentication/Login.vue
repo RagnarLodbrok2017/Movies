@@ -25,7 +25,7 @@
             </span>
           </div>
 
-          <div class="container-login100-form-btn p-t-10">
+          <div @click='test' class="container-login100-form-btn p-t-10">
             <button class="login100-form-btn">
               Login
             </button>
@@ -54,6 +54,15 @@
       data(){
         return{
           username:"",
+        }
+      },
+      methods:{
+        test(){
+          this.$http.get('http://localhost:8000/api/test').then(
+            function(response){
+              console.log(response);
+            }
+            );
         }
       },
     }

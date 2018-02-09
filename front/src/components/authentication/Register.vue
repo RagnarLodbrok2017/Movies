@@ -4,11 +4,9 @@
 
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 text">
-          <h1 class="wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;">Register Page</h1>
+          <h1 class="wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;">Galaxy Movies</h1>
           <div class="description wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;">
-            <p>
-              Hello u can register to watch paid movies and series in the site.
-            </p>
+
           </div>
         </div>
       </div>
